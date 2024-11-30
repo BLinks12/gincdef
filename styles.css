@@ -91,3 +91,23 @@ footer {
   border-top: 4px solid #af947a;
   color: #4a4a4a;
 }
+/* Social Links Styling */
+footer .social-links {
+  margin-top: 20px;
+}
+
+footer .social-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #d35d5d;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+footer .social-links a:hover {
+  background-color: #b94747;
+  transform: scale(1.05);
+}
